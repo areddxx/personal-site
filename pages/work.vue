@@ -75,8 +75,21 @@ h2 {
   margin-bottom: 45px;
 }
 .project-item {
-  margin-bottom: 15px;
   padding-bottom: 15px;
+  &::after {
+    display: block;
+    width: 150px;
+    background-color: white;
+    height: 1px;
+    margin-top: 15px;
+    content: '';
+    opacity: .1;
+  }
+  &:last-of-type {
+    &::after {
+      display: none;
+    }
+  }
   a {
     font-size: 18px;
     margin-bottom: 7px;
@@ -88,6 +101,11 @@ h2 {
   span {
     opacity: 0.6;
     margin-left: 7px;
+    @media screen and (max-width: 700px) {
+      display: block;
+      margin-left: 0;
+      margin-top: 3px;
+    }
   }
 }
 </style>
