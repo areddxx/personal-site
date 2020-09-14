@@ -55,6 +55,7 @@ a {
   width: 1440px;
   max-width: 100%;
   flex-direction: column;
+  margin: 0 auto;
 }
 
 main {
