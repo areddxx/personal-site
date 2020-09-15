@@ -52,7 +52,7 @@ a {
   padding: 0 30px;
   min-height: 100vh;
   display: flex;
-  width: 1440px;
+  width: 1000px;
   max-width: 100%;
   flex-direction: column;
   margin: 0 auto;
