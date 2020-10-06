@@ -6,7 +6,26 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data () {
+    return {
+      title: 'Austin Redd | Developer & Designer'
+    }
+  },
+  head () {
+    return {
+      title: this.title,
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Developer & Designer'
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style lang="scss">

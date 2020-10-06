@@ -12,6 +12,13 @@
         </p>
       </div>
       <div class="project-item">
+        <a target="_blank" href="https://goldenaluminum.com/">Golden Aluminum</a>
+        <p>
+          Website Design
+          <span>Built @ToolStudios.</span>
+        </p>
+      </div>
+      <div class="project-item">
         <a target="_blank" href="https://www.grassrootscannabis.com/">Grassroots Cannabis</a>
         <p>
           Design & Custom Woocommerce Theme
@@ -21,14 +28,14 @@
       <div class="project-item">
         <a target="_blank" href="https://greenhouseil.com/">Greenhouse Dispensaries</a>
         <p>
-          Design
+          Website Design
           <span>Built @ToolStudios.</span>
         </p>
       </div>
       <div class="project-item">
         <a target="_blank" href="https://myherbology.com/">Herbology Dispensaries</a>
         <p>
-          Design
+          Website Design
           <span>Built @ToolStudios.</span>
         </p>
       </div>
@@ -63,6 +70,29 @@
     </section>
   </main>
 </template>
+
+<script>
+export default {
+  data () {
+    return {
+      title: 'Austin Redd | Developer & Designer'
+    }
+  },
+  head () {
+    return {
+      title: this.title,
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Developer & Designer'
+        }
+      ]
+    }
+  }
+}
+</script>
 
 <style lang="scss">
 h1 {
