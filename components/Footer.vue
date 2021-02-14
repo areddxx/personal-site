@@ -2,7 +2,7 @@
   <div class="footer">
     <NuxtLink class="link" to="/">Austin Redd</NuxtLink>
     <div class="social-links">
-      <a href="https://dribble.com/areddxx" target="_blank">
+      <a href="https://dribbble.com/areddxx" target="_blank">
         <font-awesome-icon :icon="['fab', 'dribbble']" />
       </a>
       <a href="https://twitter.com/areddxx" target="_blank">

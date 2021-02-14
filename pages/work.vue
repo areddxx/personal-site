@@ -54,13 +54,6 @@
         </p>
       </div>
       <div class="project-item">
-        <a target="_blank" href="https://thesolartrees.com/">The Solar Trees</a>
-        <p>
-          Design & Custom WordPress Theme
-          <span>Built @ToolStudios.</span>
-        </p>
-      </div>
-      <div class="project-item">
         <a target="_blank" href="https://www.kolapartners.com/">Kola Partners</a>
         <p>
           WordPress Theme
